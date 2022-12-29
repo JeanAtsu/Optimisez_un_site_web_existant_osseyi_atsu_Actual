@@ -832,7 +832,7 @@ h4 {
 
 /* SEO - optimisation */
 
-/*
+
 .social { 
     display:flex;
     flex-direction: row;
@@ -844,9 +844,7 @@ h4 {
     justify-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
-}*/
-/**/
-
+}
 
 nav ul
 {
@@ -919,13 +917,12 @@ nav a:hover
     justify-items: center;
 }
 
-/*
 .form-group
 {
     display: flex;
     flex-direction: column;
     margin: 10px;
-}*/
+}
 
 /* fin SEO*/
 
