@@ -938,6 +938,9 @@ p {
     width: auto;
     margin: auto;
 }
+.portfolio-thumb, .img-responsive {
+    width: 100%;
+}
 
 /* fin SEO*/
 
