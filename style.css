@@ -919,9 +919,14 @@ nav a:hover
 
 .form-group
 {
+    width: 100%;
+    margin: 10px;
     display: flex;
     flex-direction: column;
-    margin: 10px;
+}
+.form-group > input, .form-group > textarea
+{
+    width: 100%;
 }
 
 /* fin SEO*/
