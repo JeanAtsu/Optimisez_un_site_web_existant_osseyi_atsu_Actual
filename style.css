@@ -926,7 +926,7 @@ nav a:hover
 }
 .form-group > input, .form-group > textarea
 {
-    width: 100%;
+    width: 96%;
 }
 p {
     width: auto;
