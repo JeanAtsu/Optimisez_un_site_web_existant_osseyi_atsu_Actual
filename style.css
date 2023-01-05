@@ -24,7 +24,7 @@ button {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+   /* background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;*/
 }
 
 .bloc {
@@ -687,7 +687,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -941,6 +941,14 @@ p {
 }
 .portfolio-thumb, .img-responsive {
     width: 100%;
+}
+.col-sm-12 > .image-resize-mode, .col-sm-12 > .center-block
+{
+    width: 100px;
+}
+.navbar-brand > img
+{
+    height: 40px;
 }
 
 /* fin SEO*/
