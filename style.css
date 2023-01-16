@@ -91,7 +91,7 @@ button {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -745,7 +745,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin-bottom: 0;
 }
 
 .portfolio-row {
@@ -815,19 +815,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.jpg");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.jpg");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 /* SEO - optimisation */
@@ -910,7 +910,7 @@ nav a:hover
     display: flex;
     width: 100%;
     margin: auto;
-    background-color: #F3976C57;
+    background-color: #f552259c;
     align-content: center;
     align-items: center;
     justify-content: center;
@@ -926,17 +926,13 @@ nav a:hover
 }
 .form-group > input, .form-group > textarea
 {
-    width: 96%;
-    size: 1.4em;
-}
-p {
-    width: auto;
-    margin: auto;
+    width: 100%;
+    size: 1.6em;
 }
 
 .container
 {
-    width: auto;
+    width: 100%;
     margin: auto;
 }
 .portfolio-thumb, .img-responsive {
@@ -949,6 +945,37 @@ p {
 .navbar-brand > img
 {
     height: 40px;
+}
+
+.col-sm-6
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.flexboxCol
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+}
+.form-group
+{
+    width: 100%;
+    margin: auto;
+}
+#bloc7, #form_1
+{
+    width: 100%;
+}
+.portfolio-row
+{
+    margin: auto;
+    padding: 0;
 }
 
 /* fin SEO*/
